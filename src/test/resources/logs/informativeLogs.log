@@ -1,0 +1,14 @@
+11:39:58.829 INFO  AUTOMATION - Suite iniciada: Default Suite
+11:40:00.563 INFO  AUTOMATION - Comenzando el test: ejercicio1Test
+11:40:00.617 INFO  AUTOMATION - Navegando a: https://www.saucedemo.com/
+11:40:02.146 INFO  AUTOMATION - Obteniendo la url actual
+11:40:02.154 INFO  AUTOMATION - Verificando que las urls sean iguales
+11:40:02.173 INFO  AUTOMATION - Test exitoso: ejercicio1Test
+11:40:03.204 INFO  AUTOMATION - Comenzando el test: ejercicio2
+11:40:03.205 INFO  AUTOMATION - Navegando a: https://the-internet.herokuapp.com/
+11:40:05.332 INFO  AUTOMATION - Navegando a: https://github.com/
+11:40:07.225 INFO  AUTOMATION - Regresando a la pagina anterior
+11:40:07.248 INFO  AUTOMATION - Obteniendo la url actual
+11:40:07.255 INFO  AUTOMATION - Verificando que las urls sean iguales
+11:40:07.258 INFO  AUTOMATION - Test exitoso: ejercicio2
+11:40:07.447 INFO  AUTOMATION - Suite finalizada: Default Suite
