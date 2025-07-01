@@ -26,6 +26,22 @@ public class Monstruo {
         return nivel;
     }
 
+    public int getEdad(){
+        return edad;
+    }
+
+    public double getPeso(){
+        return peso;
+    }
+
+    public String getGenero(){
+        return genero;
+    }
+
+    public String getTipo(){
+        return tipo;
+    }
+
     @Override
     public String toString() {
         final var multilinea = """

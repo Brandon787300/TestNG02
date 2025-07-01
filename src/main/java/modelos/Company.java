@@ -12,7 +12,7 @@ public class Company {
     @JsonProperty("bs")
     private String bs;
 
-    public String getBsss() {
+    public String getBs() {
         return bs;
     }
 }
