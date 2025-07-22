@@ -1,24 +1,21 @@
-11:39:58.829 INFO  AUTOMATION - Suite iniciada: Default Suite
-11:39:58.909 DEBUG AUTOMATION - Inializando el driver
-11:40:00.394 DEBUG AUTOMATION - Maximizando pantalla
-11:40:00.436 DEBUG AUTOMATION - Borrando cookies
-11:40:00.443 DEBUG AUTOMATION - Asignando driver al webdriver provider
-11:40:00.563 INFO  AUTOMATION - Comenzando el test: ejercicio1Test
-11:40:00.617 INFO  AUTOMATION - Navegando a: https://www.saucedemo.com/
-11:40:02.146 INFO  AUTOMATION - Obteniendo la url actual
-11:40:02.154 INFO  AUTOMATION - Verificando que las urls sean iguales
-11:40:02.173 INFO  AUTOMATION - Test exitoso: ejercicio1Test
-11:40:02.173 DEBUG AUTOMATION - Matando el driver
-11:40:02.346 DEBUG AUTOMATION - Inializando el driver
-11:40:03.153 DEBUG AUTOMATION - Maximizando pantalla
-11:40:03.195 DEBUG AUTOMATION - Borrando cookies
-11:40:03.203 DEBUG AUTOMATION - Asignando driver al webdriver provider
-11:40:03.204 INFO  AUTOMATION - Comenzando el test: ejercicio2
-11:40:03.205 INFO  AUTOMATION - Navegando a: https://the-internet.herokuapp.com/
-11:40:05.332 INFO  AUTOMATION - Navegando a: https://github.com/
-11:40:07.225 INFO  AUTOMATION - Regresando a la pagina anterior
-11:40:07.248 INFO  AUTOMATION - Obteniendo la url actual
-11:40:07.255 INFO  AUTOMATION - Verificando que las urls sean iguales
-11:40:07.258 INFO  AUTOMATION - Test exitoso: ejercicio2
-11:40:07.258 DEBUG AUTOMATION - Matando el driver
-11:40:07.447 INFO  AUTOMATION - Suite finalizada: Default Suite
+02:34:56.666 INFO  AUTOMATION - Suite iniciada: Default Suite
+02:34:56.705 DEBUG AUTOMATION - Borrando las carpetas de evidencias
+02:34:56.809 DEBUG AUTOMATION - Inializando el driver
+02:34:57.917 DEBUG AUTOMATION - Maximizando pantalla
+02:34:57.943 DEBUG AUTOMATION - Borrando cookies
+02:34:57.948 DEBUG AUTOMATION - Asignando driver al webdriver provider
+02:34:58.025 INFO  AUTOMATION - Comenzando el test: detalleProductoTest
+02:34:58.055 INFO  AUTOMATION - Navegando a la pagina
+02:35:00.241 INFO  AUTOMATION - Esperando que cargue la pagina principal
+02:35:00.267 INFO  AUTOMATION - Escribiendo el username
+02:35:00.312 INFO  AUTOMATION - Escribiendo el password
+02:35:00.349 INFO  AUTOMATION - Haciendo click en el boton de login
+02:35:00.417 INFO  AUTOMATION - Esperando que cargue la pagina de shopping
+02:35:00.443 INFO  AUTOMATION - Haciendo click en el primer elemento de la lista
+02:35:00.461 DEBUG AUTOMATION - Before test stop de allure
+02:35:00.710 INFO  AUTOMATION - Test fallido: detalleProductoTest
+02:35:00.710 DEBUG AUTOMATION - Tomando screenshots
+02:35:00.790 DEBUG AUTOMATION - Tomando page source
+02:35:00.790 DEBUG AUTOMATION - Creando los directorios padres si es que no existen
+02:35:00.808 DEBUG AUTOMATION - Matando el driver
+02:35:00.937 INFO  AUTOMATION - Suite finalizada: Default Suite
