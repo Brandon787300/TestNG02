@@ -1,7 +1,7 @@
 package reader;
 
 import com.poiji.bind.Poiji;
-import modelos.Monstruo;
+import JsonModelos.Monstruo;
 
 import java.io.File;
 import java.util.List;

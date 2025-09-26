@@ -1,4 +1,4 @@
-package modelos;
+package JsonModelos;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.github.javafaker.Company;

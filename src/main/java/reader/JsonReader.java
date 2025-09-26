@@ -1,7 +1,7 @@
 package reader;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import modelos.User;
+import JsonModelos.User;
 
 import java.io.File;
 import java.io.IOException;

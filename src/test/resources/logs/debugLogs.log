@@ -1,21 +1,822 @@
-02:34:56.666 INFO  AUTOMATION - Suite iniciada: Default Suite
-02:34:56.705 DEBUG AUTOMATION - Borrando las carpetas de evidencias
-02:34:56.809 DEBUG AUTOMATION - Inializando el driver
-02:34:57.917 DEBUG AUTOMATION - Maximizando pantalla
-02:34:57.943 DEBUG AUTOMATION - Borrando cookies
-02:34:57.948 DEBUG AUTOMATION - Asignando driver al webdriver provider
-02:34:58.025 INFO  AUTOMATION - Comenzando el test: detalleProductoTest
-02:34:58.055 INFO  AUTOMATION - Navegando a la pagina
-02:35:00.241 INFO  AUTOMATION - Esperando que cargue la pagina principal
-02:35:00.267 INFO  AUTOMATION - Escribiendo el username
-02:35:00.312 INFO  AUTOMATION - Escribiendo el password
-02:35:00.349 INFO  AUTOMATION - Haciendo click en el boton de login
-02:35:00.417 INFO  AUTOMATION - Esperando que cargue la pagina de shopping
-02:35:00.443 INFO  AUTOMATION - Haciendo click en el primer elemento de la lista
-02:35:00.461 DEBUG AUTOMATION - Before test stop de allure
-02:35:00.710 INFO  AUTOMATION - Test fallido: detalleProductoTest
-02:35:00.710 DEBUG AUTOMATION - Tomando screenshots
-02:35:00.790 DEBUG AUTOMATION - Tomando page source
-02:35:00.790 DEBUG AUTOMATION - Creando los directorios padres si es que no existen
-02:35:00.808 DEBUG AUTOMATION - Matando el driver
-02:35:00.937 INFO  AUTOMATION - Suite finalizada: Default Suite
+20:26:12.161 INFO  AUTOMATION - Suite iniciada: Surefire suite
+20:26:12.168 DEBUG AUTOMATION - Borrando las carpetas de evidencias
+20:26:12.264 DEBUG AUTOMATION - Inializando el driver
+20:26:15.776 DEBUG AUTOMATION - Maximizando pantalla
+20:26:15.815 DEBUG AUTOMATION - Borrando cookies
+20:26:15.822 DEBUG AUTOMATION - Asignando driver al webdriver provider
+20:26:15.899 INFO  AUTOMATION - Navegando a la url
+20:26:16.734 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
+20:26:16.776 INFO  AUTOMATION - LoginPage ha cargado satisfactoriamente
+20:26:16.781 INFO  AUTOMATION - Escribiendo el username
+20:26:16.901 INFO  AUTOMATION - Escribiendo el password
+20:26:16.958 INFO  AUTOMATION - Haciendo click en el boton de login
+20:26:17.050 INFO  AUTOMATION - Esperando que la pagina ShoppingPage cargue
+20:26:17.071 INFO  AUTOMATION - ShoppingPage ha cargado satisfactoriamente
+20:26:17.071 INFO  AUTOMATION - Abriendo el menu burger
+20:26:17.127 INFO  AUTOMATION - Esperando que la pagina MenuBurger cargue
+20:26:17.666 INFO  AUTOMATION - MenuBurger ha cargado satisfactoriamente
+20:26:17.666 INFO  AUTOMATION - Esperando que sea clickeable por la animacion
+20:26:17.690 INFO  AUTOMATION - Comenzando el test: aboutLinkTest
+20:26:17.721 INFO  AUTOMATION - Verificando la opcion de about
+20:26:17.749 DEBUG AUTOMATION - Before test stop de allure
+20:26:17.755 INFO  AUTOMATION - Test exitoso: aboutLinkTest
+20:26:17.756 DEBUG AUTOMATION - Matando el driver
+20:26:17.894 DEBUG AUTOMATION - Inializando el driver
+20:26:18.541 DEBUG AUTOMATION - Maximizando pantalla
+20:26:18.570 DEBUG AUTOMATION - Borrando cookies
+20:26:18.577 DEBUG AUTOMATION - Asignando driver al webdriver provider
+20:26:18.578 INFO  AUTOMATION - Navegando a la url
+20:26:19.341 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
+20:26:19.357 INFO  AUTOMATION - LoginPage ha cargado satisfactoriamente
+20:26:19.358 INFO  AUTOMATION - Escribiendo el username
+20:26:19.409 INFO  AUTOMATION - Escribiendo el password
+20:26:19.451 INFO  AUTOMATION - Haciendo click en el boton de login
+20:26:19.521 INFO  AUTOMATION - Esperando que la pagina ShoppingPage cargue
+20:26:19.537 INFO  AUTOMATION - ShoppingPage ha cargado satisfactoriamente
+20:26:19.537 INFO  AUTOMATION - Abriendo el menu burger
+20:26:19.587 INFO  AUTOMATION - Esperando que la pagina MenuBurger cargue
+20:26:20.116 INFO  AUTOMATION - MenuBurger ha cargado satisfactoriamente
+20:26:20.116 INFO  AUTOMATION - Esperando que sea clickeable por la animacion
+20:26:20.132 INFO  AUTOMATION - Comenzando el test: logoutTest
+20:26:20.134 INFO  AUTOMATION - Haciendo click en logout
+20:26:20.168 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
+20:26:25.339 DEBUG AUTOMATION - Before test stop de allure
+20:26:25.556 INFO  AUTOMATION - Test fallido: logoutTest
+20:26:25.556 DEBUG AUTOMATION - Tomando screenshots
+20:26:25.639 DEBUG AUTOMATION - Tomando page source
+20:26:25.639 DEBUG AUTOMATION - Creando los directorios padres si es que no existen
+20:26:25.653 DEBUG AUTOMATION - Matando el driver
+20:26:25.788 DEBUG AUTOMATION - Inializando el driver
+20:26:26.439 DEBUG AUTOMATION - Maximizando pantalla
+20:26:26.470 DEBUG AUTOMATION - Borrando cookies
+20:26:26.475 DEBUG AUTOMATION - Asignando driver al webdriver provider
+20:26:26.477 INFO  AUTOMATION - Navegando a la url
+20:26:27.260 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
+20:26:27.276 INFO  AUTOMATION - LoginPage ha cargado satisfactoriamente
+20:26:27.276 INFO  AUTOMATION - Escribiendo el username
+20:26:27.325 INFO  AUTOMATION - Escribiendo el password
+20:26:27.367 INFO  AUTOMATION - Haciendo click en el boton de login
+20:26:27.437 INFO  AUTOMATION - Esperando que la pagina ShoppingPage cargue
+20:26:27.451 INFO  AUTOMATION - ShoppingPage ha cargado satisfactoriamente
+20:26:27.453 INFO  AUTOMATION - Comenzando el test: socialMediaLinksTests
+20:26:27.484 INFO  AUTOMATION - Verificando los links de las redes sociales
+20:26:27.528 DEBUG AUTOMATION - Before test stop de allure
+20:26:27.529 INFO  AUTOMATION - Test exitoso: socialMediaLinksTests
+20:26:27.530 DEBUG AUTOMATION - Matando el driver
+20:26:27.645 DEBUG AUTOMATION - Inializando el driver
+20:26:28.318 DEBUG AUTOMATION - Maximizando pantalla
+20:26:28.349 DEBUG AUTOMATION - Borrando cookies
+20:26:28.355 DEBUG AUTOMATION - Asignando driver al webdriver provider
+20:26:28.356 INFO  AUTOMATION - Navegando a la url
+20:26:29.201 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
+20:26:29.217 INFO  AUTOMATION - LoginPage ha cargado satisfactoriamente
+20:26:29.217 INFO  AUTOMATION - Escribiendo el username
+20:26:29.264 INFO  AUTOMATION - Escribiendo el password
+20:26:29.307 INFO  AUTOMATION - Haciendo click en el boton de login
+20:26:29.401 INFO  AUTOMATION - Esperando que la pagina ShoppingPage cargue
+20:26:29.417 INFO  AUTOMATION - ShoppingPage ha cargado satisfactoriamente
+20:26:29.418 INFO  AUTOMATION - Navegandi al detalle del item: Sauce Labs Fleece Jacket
+20:26:29.497 INFO  AUTOMATION - Esperando que la pagina ItemDetailPage cargue
+20:26:29.518 INFO  AUTOMATION - ItemDetailPage ha cargado satisfactoriamente
+20:26:29.520 INFO  AUTOMATION - Comenzando el test: backToProductsTets
+20:26:29.522 INFO  AUTOMATION - Haciendo click en back to products
+20:26:29.570 INFO  AUTOMATION - Esperando que la pagina ShoppingPage cargue
+20:26:29.582 INFO  AUTOMATION - ShoppingPage ha cargado satisfactoriamente
+20:26:29.582 INFO  AUTOMATION - Verificando la pagina de shopping
+20:26:29.620 DEBUG AUTOMATION - Before test stop de allure
+20:26:29.621 INFO  AUTOMATION - Test exitoso: backToProductsTets
+20:26:29.622 DEBUG AUTOMATION - Matando el driver
+20:26:29.734 DEBUG AUTOMATION - Inializando el driver
+20:26:30.361 DEBUG AUTOMATION - Maximizando pantalla
+20:26:30.396 DEBUG AUTOMATION - Borrando cookies
+20:26:30.401 DEBUG AUTOMATION - Asignando driver al webdriver provider
+20:26:30.403 INFO  AUTOMATION - Navegando a la url
+20:26:31.157 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
+20:26:31.173 INFO  AUTOMATION - LoginPage ha cargado satisfactoriamente
+20:26:31.174 INFO  AUTOMATION - Escribiendo el username
+20:26:31.221 INFO  AUTOMATION - Escribiendo el password
+20:26:31.261 INFO  AUTOMATION - Haciendo click en el boton de login
+20:26:31.330 INFO  AUTOMATION - Esperando que la pagina ShoppingPage cargue
+20:26:31.344 INFO  AUTOMATION - ShoppingPage ha cargado satisfactoriamente
+20:26:31.344 INFO  AUTOMATION - Navegandi al detalle del item: Sauce Labs Fleece Jacket
+20:26:31.400 INFO  AUTOMATION - Esperando que la pagina ItemDetailPage cargue
+20:26:31.416 INFO  AUTOMATION - ItemDetailPage ha cargado satisfactoriamente
+20:26:31.418 INFO  AUTOMATION - Comenzando el test: verifyPageTest
+20:26:31.421 INFO  AUTOMATION - Verificando el detalle del item
+20:26:31.501 DEBUG AUTOMATION - Before test stop de allure
+20:26:31.502 INFO  AUTOMATION - Test exitoso: verifyPageTest
+20:26:31.503 DEBUG AUTOMATION - Matando el driver
+20:26:31.625 DEBUG AUTOMATION - Inializando el driver
+20:26:32.300 DEBUG AUTOMATION - Maximizando pantalla
+20:26:32.332 DEBUG AUTOMATION - Borrando cookies
+20:26:32.338 DEBUG AUTOMATION - Asignando driver al webdriver provider
+20:26:32.339 INFO  AUTOMATION - Navegando a la url
+20:26:33.074 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
+20:26:33.090 INFO  AUTOMATION - LoginPage ha cargado satisfactoriamente
+20:26:33.092 INFO  AUTOMATION - Comenzando el test: usuarioInvalidoTest
+20:26:33.094 INFO  AUTOMATION - Escribiendo el username
+20:26:33.144 INFO  AUTOMATION - Escribiendo el password
+20:26:33.187 INFO  AUTOMATION - Haciendo click en el boton de login
+20:26:33.249 INFO  AUTOMATION - Verificando el mensaje de error y su texto
+20:26:33.263 DEBUG AUTOMATION - Before test stop de allure
+20:26:33.264 INFO  AUTOMATION - Test exitoso: usuarioInvalidoTest
+20:26:33.264 DEBUG AUTOMATION - Matando el driver
+20:26:33.397 DEBUG AUTOMATION - Inializando el driver
+20:26:33.976 DEBUG AUTOMATION - Maximizando pantalla
+20:26:34.006 DEBUG AUTOMATION - Borrando cookies
+20:26:34.011 DEBUG AUTOMATION - Asignando driver al webdriver provider
+20:26:34.012 INFO  AUTOMATION - Navegando a la url
+20:26:35.102 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
+20:26:35.122 INFO  AUTOMATION - LoginPage ha cargado satisfactoriamente
+20:26:35.123 INFO  AUTOMATION - Comenzando el test: verifyLoginPageTest
+20:26:35.125 INFO  AUTOMATION - Verificando la pagina de login
+20:26:35.161 DEBUG AUTOMATION - Before test stop de allure
+20:26:35.162 INFO  AUTOMATION - Test exitoso: verifyLoginPageTest
+20:26:35.162 DEBUG AUTOMATION - Matando el driver
+20:26:35.261 DEBUG AUTOMATION - Inializando el driver
+20:26:35.886 DEBUG AUTOMATION - Maximizando pantalla
+20:26:35.915 DEBUG AUTOMATION - Borrando cookies
+20:26:35.921 DEBUG AUTOMATION - Asignando driver al webdriver provider
+20:26:35.923 INFO  AUTOMATION - Navegando a la url
+20:26:36.749 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
+20:26:36.765 INFO  AUTOMATION - LoginPage ha cargado satisfactoriamente
+20:26:36.765 INFO  AUTOMATION - Escribiendo el username
+20:26:36.812 INFO  AUTOMATION - Escribiendo el password
+20:26:36.853 INFO  AUTOMATION - Haciendo click en el boton de login
+20:26:36.921 INFO  AUTOMATION - Esperando que la pagina ShoppingPage cargue
+20:26:36.936 INFO  AUTOMATION - ShoppingPage ha cargado satisfactoriamente
+20:26:36.937 INFO  AUTOMATION - Comenzando el test: verifyPageTest
+20:26:36.939 INFO  AUTOMATION - Verificando la pagina de shopping
+20:26:36.980 DEBUG AUTOMATION - Before test stop de allure
+20:26:36.981 INFO  AUTOMATION - Test exitoso: verifyPageTest
+20:26:36.982 DEBUG AUTOMATION - Matando el driver
+20:26:37.094 DEBUG AUTOMATION - Inializando el driver
+20:26:37.744 DEBUG AUTOMATION - Maximizando pantalla
+20:26:37.774 DEBUG AUTOMATION - Borrando cookies
+20:26:37.779 DEBUG AUTOMATION - Asignando driver al webdriver provider
+20:26:37.780 INFO  AUTOMATION - Comenzando el test: shadowDom1Test
+20:26:37.782 INFO  AUTOMATION - Navegando a la pagina
+20:26:39.210 DEBUG AUTOMATION - Obteniendo el shadow root
+20:26:39.225 DEBUG AUTOMATION - Obteniendo el footer a traves del shadow root
+20:26:39.234 INFO  AUTOMATION - Verificando que el texto sea correcto
+20:26:39.242 DEBUG AUTOMATION - Before test stop de allure
+20:26:39.243 INFO  AUTOMATION - Test exitoso: shadowDom1Test
+20:26:39.243 DEBUG AUTOMATION - Matando el driver
+20:26:39.362 DEBUG AUTOMATION - Inializando el driver
+20:26:39.948 DEBUG AUTOMATION - Maximizando pantalla
+20:26:39.980 DEBUG AUTOMATION - Borrando cookies
+20:26:39.985 DEBUG AUTOMATION - Asignando driver al webdriver provider
+20:26:39.986 INFO  AUTOMATION - Comenzando el test: shadowDom2Test
+20:26:39.988 INFO  AUTOMATION - Navegando a la pagina
+20:26:41.403 DEBUG AUTOMATION - Obteniendo el shadow root
+20:26:41.418 DEBUG AUTOMATION - Obteniendo el input a traves del shadow root
+20:26:41.429 INFO  AUTOMATION - Escribiendo hello world en el input
+20:26:42.592 DEBUG AUTOMATION - Obteniendo el shadow root interno
+20:26:42.615 INFO  AUTOMATION - Verificando que la lista de libros sea visible
+20:26:42.625 DEBUG AUTOMATION - Before test stop de allure
+20:26:42.626 INFO  AUTOMATION - Test exitoso: shadowDom2Test
+20:26:42.626 DEBUG AUTOMATION - Matando el driver
+20:26:42.784 DEBUG AUTOMATION - Inializando el driver
+20:26:43.411 DEBUG AUTOMATION - Maximizando pantalla
+20:26:43.444 DEBUG AUTOMATION - Borrando cookies
+20:26:43.450 DEBUG AUTOMATION - Asignando driver al webdriver provider
+20:26:43.452 INFO  AUTOMATION - Comenzando el test: alert1Test
+20:26:43.453 INFO  AUTOMATION - Navengando a la pagina
+20:26:48.513 INFO  AUTOMATION - Esperando que cargue la pagina
+20:26:48.528 INFO  AUTOMATION - Haciendo click en el boton para que aparezca el alert
+20:26:49.584 DEBUG AUTOMATION - Before test stop de allure
+20:26:49.708 INFO  AUTOMATION - Test fallido: alert1Test
+20:26:49.708 DEBUG AUTOMATION - Tomando screenshots
+20:26:49.824 DEBUG AUTOMATION - Tomando page source
+20:26:49.824 DEBUG AUTOMATION - Creando los directorios padres si es que no existen
+20:26:49.825 DEBUG AUTOMATION - Matando el driver
+20:26:49.955 DEBUG AUTOMATION - Inializando el driver
+20:26:50.627 DEBUG AUTOMATION - Maximizando pantalla
+20:26:50.653 DEBUG AUTOMATION - Borrando cookies
+20:26:50.659 DEBUG AUTOMATION - Asignando driver al webdriver provider
+20:26:50.661 INFO  AUTOMATION - Comenzando el test: alert2Test
+20:26:50.662 INFO  AUTOMATION - Navegando a la pagina
+20:26:54.403 INFO  AUTOMATION - Esperando que cargue la pagina
+20:26:54.419 INFO  AUTOMATION - Haciendo click en el boton para que aparezca el confirm
+20:26:55.454 DEBUG AUTOMATION - Before test stop de allure
+20:26:55.653 INFO  AUTOMATION - Test fallido: alert2Test
+20:26:55.653 DEBUG AUTOMATION - Tomando screenshots
+20:26:55.750 DEBUG AUTOMATION - Tomando page source
+20:26:55.751 DEBUG AUTOMATION - Creando los directorios padres si es que no existen
+20:26:55.751 DEBUG AUTOMATION - Matando el driver
+20:26:55.911 DEBUG AUTOMATION - Inializando el driver
+20:26:56.562 DEBUG AUTOMATION - Maximizando pantalla
+20:26:56.596 DEBUG AUTOMATION - Borrando cookies
+20:26:56.601 DEBUG AUTOMATION - Asignando driver al webdriver provider
+20:26:56.602 INFO  AUTOMATION - Comenzando el test: alert3Test
+20:26:56.603 INFO  AUTOMATION - Navegando a la pagina
+20:27:01.376 INFO  AUTOMATION - Esperando que cargue la pagina
+20:27:01.391 INFO  AUTOMATION - Haciendo click en el boton para que aparezca el prompt
+20:27:02.431 DEBUG AUTOMATION - Before test stop de allure
+20:27:02.546 INFO  AUTOMATION - Test fallido: alert3Test
+20:27:02.546 DEBUG AUTOMATION - Tomando screenshots
+20:27:02.653 DEBUG AUTOMATION - Tomando page source
+20:27:02.653 DEBUG AUTOMATION - Creando los directorios padres si es que no existen
+20:27:02.653 DEBUG AUTOMATION - Matando el driver
+20:27:02.793 DEBUG AUTOMATION - Inializando el driver
+20:27:03.440 DEBUG AUTOMATION - Maximizando pantalla
+20:27:03.472 DEBUG AUTOMATION - Borrando cookies
+20:27:03.476 DEBUG AUTOMATION - Asignando driver al webdriver provider
+20:27:03.477 INFO  AUTOMATION - Comenzando el test: keyboard2Test
+20:27:03.479 INFO  AUTOMATION - Navegando a la pagina
+20:27:14.691 DEBUG AUTOMATION - Address: 52872 Rohan Isle, Daneburgh, AR 67884
+20:27:14.701 INFO  AUTOMATION - Doy focus, escribo, Selecciono y copio el contenido
+20:27:14.945 INFO  AUTOMATION - Pegando el contenido
+20:27:20.127 INFO  AUTOMATION - Verificando que ambos input tengan el mismo texto
+20:27:20.144 DEBUG AUTOMATION - Before test stop de allure
+20:27:20.145 INFO  AUTOMATION - Test exitoso: keyboard2Test
+20:27:20.146 DEBUG AUTOMATION - Matando el driver
+20:27:20.322 DEBUG AUTOMATION - Inializando el driver
+20:27:20.972 DEBUG AUTOMATION - Maximizando pantalla
+20:27:21.000 DEBUG AUTOMATION - Borrando cookies
+20:27:21.006 DEBUG AUTOMATION - Asignando driver al webdriver provider
+20:27:21.007 INFO  AUTOMATION - Comenzando el test: keyboardTest
+20:27:21.009 INFO  AUTOMATION - Navegando a la pagina
+20:27:24.739 DEBUG AUTOMATION - fullName: Hugo Bernhard II
+20:27:24.748 INFO  AUTOMATION - Hago click para dar focus, Presionando SHIFT y escribiendo en masyuculas
+20:27:25.007 INFO  AUTOMATION - Verificando que el input este en masyuculas
+20:27:25.016 DEBUG AUTOMATION - Before test stop de allure
+20:27:25.202 INFO  AUTOMATION - Test fallido: keyboardTest
+20:27:25.202 DEBUG AUTOMATION - Tomando screenshots
+20:27:25.351 DEBUG AUTOMATION - Tomando page source
+20:27:25.352 DEBUG AUTOMATION - Creando los directorios padres si es que no existen
+20:27:25.352 DEBUG AUTOMATION - Matando el driver
+20:27:25.497 DEBUG AUTOMATION - Inializando el driver
+20:27:26.140 DEBUG AUTOMATION - Maximizando pantalla
+20:27:26.174 DEBUG AUTOMATION - Borrando cookies
+20:27:26.178 DEBUG AUTOMATION - Asignando driver al webdriver provider
+20:27:26.179 INFO  AUTOMATION - Comenzando el test: mouse1Test
+20:27:26.180 INFO  AUTOMATION - Navegando a la pagina
+20:27:30.025 INFO  AUTOMATION - Arrastrando la figura origen a la de destino
+20:27:30.341 INFO  AUTOMATION - Verificando que el label dropped sea visible
+20:27:30.349 DEBUG AUTOMATION - Before test stop de allure
+20:27:30.440 INFO  AUTOMATION - Test fallido: mouse1Test
+20:27:30.441 DEBUG AUTOMATION - Tomando screenshots
+20:27:30.533 DEBUG AUTOMATION - Tomando page source
+20:27:30.533 DEBUG AUTOMATION - Creando los directorios padres si es que no existen
+20:27:30.533 DEBUG AUTOMATION - Matando el driver
+20:27:30.676 DEBUG AUTOMATION - Inializando el driver
+20:27:31.260 DEBUG AUTOMATION - Maximizando pantalla
+20:27:31.296 DEBUG AUTOMATION - Borrando cookies
+20:27:31.301 DEBUG AUTOMATION - Asignando driver al webdriver provider
+20:27:31.302 INFO  AUTOMATION - Comenzando el test: mouse2Test
+20:27:31.304 INFO  AUTOMATION - Navegando a la pagina
+20:27:35.395 INFO  AUTOMATION - Poniendo el puntero del mouse encima del boton verde
+20:27:37.039 INFO  AUTOMATION - Verificando el texto del hover
+20:27:37.045 DEBUG AUTOMATION - Before test stop de allure
+20:27:37.149 INFO  AUTOMATION - Test fallido: mouse2Test
+20:27:37.149 DEBUG AUTOMATION - Tomando screenshots
+20:27:37.261 DEBUG AUTOMATION - Tomando page source
+20:27:37.261 DEBUG AUTOMATION - Creando los directorios padres si es que no existen
+20:27:37.262 DEBUG AUTOMATION - Matando el driver
+20:27:37.417 DEBUG AUTOMATION - Inializando el driver
+20:27:38.001 DEBUG AUTOMATION - Maximizando pantalla
+20:27:38.039 DEBUG AUTOMATION - Borrando cookies
+20:27:38.044 DEBUG AUTOMATION - Asignando driver al webdriver provider
+20:27:38.045 INFO  AUTOMATION - Comenzando el test: ejercicio1Test
+20:27:38.046 INFO  AUTOMATION - Navegando a: https://www.saucedemo.com/
+20:27:40.795 INFO  AUTOMATION - Obteniendo la url actual
+20:27:40.799 INFO  AUTOMATION - Verificando que las urls sean iguales
+20:27:40.799 DEBUG AUTOMATION - Before test stop de allure
+20:27:40.800 INFO  AUTOMATION - Test exitoso: ejercicio1Test
+20:27:40.800 DEBUG AUTOMATION - Matando el driver
+20:27:40.924 DEBUG AUTOMATION - Inializando el driver
+20:27:41.529 DEBUG AUTOMATION - Maximizando pantalla
+20:27:41.559 DEBUG AUTOMATION - Borrando cookies
+20:27:41.562 DEBUG AUTOMATION - Asignando driver al webdriver provider
+20:27:41.564 INFO  AUTOMATION - Comenzando el test: ejercicio2
+20:27:41.565 INFO  AUTOMATION - Navegando a: https://the-internet.herokuapp.com/
+20:27:44.697 INFO  AUTOMATION - Navegando a: https://github.com/
+20:27:49.255 INFO  AUTOMATION - Regresando a la pagina anterior
+20:27:50.786 INFO  AUTOMATION - Obteniendo la url actual
+20:27:50.790 INFO  AUTOMATION - Verificando que las urls sean iguales
+20:27:50.790 DEBUG AUTOMATION - Before test stop de allure
+20:27:50.791 INFO  AUTOMATION - Test exitoso: ejercicio2
+20:27:50.791 DEBUG AUTOMATION - Matando el driver
+20:27:50.930 DEBUG AUTOMATION - Inializando el driver
+20:27:51.636 DEBUG AUTOMATION - Maximizando pantalla
+20:27:51.670 DEBUG AUTOMATION - Borrando cookies
+20:27:51.674 DEBUG AUTOMATION - Asignando driver al webdriver provider
+20:27:51.675 INFO  AUTOMATION - Comenzando el test: siempreFallaTest
+20:27:51.676 INFO  AUTOMATION - Navegando a: https//the-internet.herokuapp.com/
+20:27:51.679 DEBUG AUTOMATION - Before test stop de allure
+20:27:51.755 INFO  AUTOMATION - Test fallido: siempreFallaTest
+20:27:51.755 DEBUG AUTOMATION - Tomando screenshots
+20:27:51.829 DEBUG AUTOMATION - Tomando page source
+20:27:51.829 DEBUG AUTOMATION - Creando los directorios padres si es que no existen
+20:27:51.830 DEBUG AUTOMATION - Matando el driver
+20:27:51.955 DEBUG AUTOMATION - Inializando el driver
+20:27:52.539 DEBUG AUTOMATION - Maximizando pantalla
+20:27:52.570 DEBUG AUTOMATION - Borrando cookies
+20:27:52.573 DEBUG AUTOMATION - Asignando driver al webdriver provider
+20:27:52.575 INFO  AUTOMATION - Comenzando el test: cookie1Test
+20:27:52.576 INFO  AUTOMATION - Navegando a la pagina
+20:27:53.317 INFO  AUTOMATION - Esperando que cargue la pagina principal
+20:27:53.333 INFO  AUTOMATION - Escribiendo el username
+20:27:53.388 INFO  AUTOMATION - Escribiendo el password
+20:27:53.439 INFO  AUTOMATION - Haciendo click en el boton de login
+20:27:53.511 INFO  AUTOMATION - Esperando que cargue la pagina de shopping
+20:27:53.525 INFO  AUTOMATION - Obteniendo el set de las cookies
+20:27:53.532 INFO  AUTOMATION - Verificando que solo hay 1 cookie
+20:27:53.532 INFO  AUTOMATION - Borrando las cookies
+20:27:53.538 INFO  AUTOMATION - Obteniendo el set de las cookies nuevamente
+20:27:53.541 INFO  AUTOMATION - Verificando que su tamaño sea 0
+20:27:53.542 DEBUG AUTOMATION - Before test stop de allure
+20:27:53.543 INFO  AUTOMATION - Test exitoso: cookie1Test
+20:27:53.543 DEBUG AUTOMATION - Matando el driver
+20:27:53.656 DEBUG AUTOMATION - Inializando el driver
+20:27:54.240 DEBUG AUTOMATION - Maximizando pantalla
+20:27:54.272 DEBUG AUTOMATION - Borrando cookies
+20:27:54.277 DEBUG AUTOMATION - Asignando driver al webdriver provider
+20:27:54.278 INFO  AUTOMATION - Comenzando el test: cookie2Test
+20:27:54.279 INFO  AUTOMATION - Navegando a la pagina
+20:27:55.046 INFO  AUTOMATION - Esperando que cargue la pagina principal
+20:27:55.061 INFO  AUTOMATION - Escribiendo el username
+20:27:55.102 INFO  AUTOMATION - Escribiendo el password
+20:27:55.144 INFO  AUTOMATION - Haciendo click en el boton de login
+20:27:55.214 INFO  AUTOMATION - Esperando que cargue la pagina de shopping
+20:27:55.228 INFO  AUTOMATION - Obteniendo la info del cooke del login
+20:27:55.232 INFO  AUTOMATION - Verificando que su value sea standard_user
+20:27:55.233 DEBUG AUTOMATION - Before test stop de allure
+20:27:55.233 INFO  AUTOMATION - Test exitoso: cookie2Test
+20:27:55.234 DEBUG AUTOMATION - Matando el driver
+20:27:55.367 DEBUG AUTOMATION - Inializando el driver
+20:27:55.983 DEBUG AUTOMATION - Maximizando pantalla
+20:27:56.016 DEBUG AUTOMATION - Borrando cookies
+20:27:56.020 DEBUG AUTOMATION - Asignando driver al webdriver provider
+20:27:56.021 INFO  AUTOMATION - Comenzando el test: detalleProductoTest
+20:27:56.022 INFO  AUTOMATION - Navegando a la pagina
+20:27:56.769 INFO  AUTOMATION - Esperando que cargue la pagina principal
+20:27:56.784 INFO  AUTOMATION - Escribiendo el username
+20:27:56.825 INFO  AUTOMATION - Escribiendo el password
+20:27:56.866 INFO  AUTOMATION - Haciendo click en el boton de login
+20:27:56.933 INFO  AUTOMATION - Esperando que cargue la pagina de shopping
+20:27:56.955 INFO  AUTOMATION - Haciendo click en el primer elemento de la lista
+20:27:56.966 DEBUG AUTOMATION - Before test stop de allure
+20:27:57.105 INFO  AUTOMATION - Test fallido: detalleProductoTest
+20:27:57.105 DEBUG AUTOMATION - Tomando screenshots
+20:27:57.176 DEBUG AUTOMATION - Tomando page source
+20:27:57.176 DEBUG AUTOMATION - Creando los directorios padres si es que no existen
+20:27:57.177 DEBUG AUTOMATION - Matando el driver
+20:27:57.278 DEBUG AUTOMATION - Inializando el driver
+20:27:57.889 DEBUG AUTOMATION - Maximizando pantalla
+20:27:57.941 DEBUG AUTOMATION - Borrando cookies
+20:27:57.945 DEBUG AUTOMATION - Asignando driver al webdriver provider
+20:27:57.946 INFO  AUTOMATION - Comenzando el test: link1Test
+20:27:57.948 INFO  AUTOMATION - Navegando a la pagina
+20:27:58.748 INFO  AUTOMATION - Esperando que cargue la pagina principal
+20:27:58.763 INFO  AUTOMATION - Escribiendo el username
+20:27:58.804 INFO  AUTOMATION - Escribiendo el password
+20:27:58.846 INFO  AUTOMATION - Haciendo click en el boton de login
+20:27:58.915 INFO  AUTOMATION - Esperando que cargue la pagina de shopping
+20:27:58.934 INFO  AUTOMATION - Verificando que el hypervinculo este correcto
+20:27:58.949 DEBUG AUTOMATION - Before test stop de allure
+20:27:58.950 INFO  AUTOMATION - Test exitoso: link1Test
+20:27:58.950 DEBUG AUTOMATION - Matando el driver
+20:27:59.070 DEBUG AUTOMATION - Inializando el driver
+20:27:59.669 DEBUG AUTOMATION - Maximizando pantalla
+20:27:59.702 DEBUG AUTOMATION - Borrando cookies
+20:27:59.705 DEBUG AUTOMATION - Asignando driver al webdriver provider
+20:27:59.707 INFO  AUTOMATION - Comenzando el test: link2Test
+20:27:59.708 INFO  AUTOMATION - Navegando a la pagina
+20:28:00.453 INFO  AUTOMATION - Esperando que cargue la pagina principal
+20:28:00.468 INFO  AUTOMATION - Escribiendo el username
+20:28:00.510 INFO  AUTOMATION - Escribiendo el password
+20:28:00.551 INFO  AUTOMATION - Haciendo click en el boton de login
+20:28:00.618 INFO  AUTOMATION - Esperando que cargue la pagina de shopping
+20:28:00.639 INFO  AUTOMATION - Verificando que el hypervinculo este correcto
+20:28:00.655 DEBUG AUTOMATION - Before test stop de allure
+20:28:00.656 INFO  AUTOMATION - Test exitoso: link2Test
+20:28:00.657 DEBUG AUTOMATION - Matando el driver
+20:28:00.771 DEBUG AUTOMATION - Inializando el driver
+20:28:01.325 DEBUG AUTOMATION - Maximizando pantalla
+20:28:01.362 DEBUG AUTOMATION - Borrando cookies
+20:28:01.366 DEBUG AUTOMATION - Asignando driver al webdriver provider
+20:28:01.367 INFO  AUTOMATION - Comenzando el test: link3Test
+20:28:01.369 INFO  AUTOMATION - Navegando a la pagina
+20:28:02.539 INFO  AUTOMATION - Esperando que cargue la pagina principal
+20:28:02.553 INFO  AUTOMATION - Escribiendo el username
+20:28:02.594 INFO  AUTOMATION - Escribiendo el password
+20:28:02.636 INFO  AUTOMATION - Haciendo click en el boton de login
+20:28:02.705 INFO  AUTOMATION - Esperando que cargue la pagina de shopping
+20:28:02.718 INFO  AUTOMATION - Abriendo el menu burger
+20:28:02.767 INFO  AUTOMATION - Esperando que abra el menu
+20:28:03.296 INFO  AUTOMATION - Verificando el vinculo de about
+20:28:03.308 DEBUG AUTOMATION - Before test stop de allure
+20:28:03.309 INFO  AUTOMATION - Test exitoso: link3Test
+20:28:03.309 DEBUG AUTOMATION - Matando el driver
+20:28:03.457 DEBUG AUTOMATION - Inializando el driver
+20:28:04.106 DEBUG AUTOMATION - Maximizando pantalla
+20:28:04.141 DEBUG AUTOMATION - Borrando cookies
+20:28:04.144 DEBUG AUTOMATION - Asignando driver al webdriver provider
+20:28:04.145 INFO  AUTOMATION - Comenzando el test: logoutTest
+20:28:04.147 INFO  AUTOMATION - Navegando a la pagina
+20:28:04.854 INFO  AUTOMATION - Esperando que cargue la pagina principal
+20:28:04.869 INFO  AUTOMATION - Escribiendo el username
+20:28:04.910 INFO  AUTOMATION - Escribiendo el password
+20:28:04.955 INFO  AUTOMATION - Haciendo click en el boton de login
+20:28:05.021 INFO  AUTOMATION - Esperando que cargue la pagina de shopping
+20:28:05.035 INFO  AUTOMATION - Abriendo el menu burger
+20:28:05.083 INFO  AUTOMATION - Esperando que abra el menu
+20:28:05.618 INFO  AUTOMATION - Haciendo click en el boton de logout
+20:28:05.652 INFO  AUTOMATION - Esperando que llegue a la pagina inicial
+20:28:10.802 DEBUG AUTOMATION - Before test stop de allure
+20:28:10.872 INFO  AUTOMATION - Test fallido: logoutTest
+20:28:10.872 DEBUG AUTOMATION - Tomando screenshots
+20:28:10.929 DEBUG AUTOMATION - Tomando page source
+20:28:10.929 DEBUG AUTOMATION - Creando los directorios padres si es que no existen
+20:28:10.930 DEBUG AUTOMATION - Matando el driver
+20:28:11.035 DEBUG AUTOMATION - Inializando el driver
+20:28:11.598 DEBUG AUTOMATION - Maximizando pantalla
+20:28:11.631 DEBUG AUTOMATION - Borrando cookies
+20:28:11.635 DEBUG AUTOMATION - Asignando driver al webdriver provider
+20:28:11.637 INFO  AUTOMATION - Comenzando el test: relativeLocator1Test
+20:28:11.639 INFO  AUTOMATION - Navegando a la pagina
+20:28:12.379 INFO  AUTOMATION - Esperando que cargue la pagina principal
+20:28:12.398 INFO  AUTOMATION - Escribiendo el username
+20:28:12.451 INFO  AUTOMATION - Escribiendo el password
+20:28:12.507 INFO  AUTOMATION - Haciendo click en el boton de login
+20:28:12.596 INFO  AUTOMATION - Esperando que cargue la pagina de shopping
+20:28:12.654 INFO  AUTOMATION - Verificando que el precio sea correcto
+20:28:12.654 DEBUG AUTOMATION - Before test stop de allure
+20:28:12.655 INFO  AUTOMATION - Test exitoso: relativeLocator1Test
+20:28:12.656 DEBUG AUTOMATION - Matando el driver
+20:28:12.780 DEBUG AUTOMATION - Inializando el driver
+20:28:13.409 DEBUG AUTOMATION - Maximizando pantalla
+20:28:13.445 DEBUG AUTOMATION - Borrando cookies
+20:28:13.449 DEBUG AUTOMATION - Asignando driver al webdriver provider
+20:28:13.450 INFO  AUTOMATION - Comenzando el test: relativeLocator2Test
+20:28:13.451 INFO  AUTOMATION - Navegando a la pagina
+20:28:14.459 INFO  AUTOMATION - Esperando que cargue la pagina principal
+20:28:14.473 INFO  AUTOMATION - Escribiendo el username
+20:28:14.517 INFO  AUTOMATION - Escribiendo el password
+20:28:14.557 INFO  AUTOMATION - Haciendo click en el boton de login
+20:28:14.626 INFO  AUTOMATION - Esperando que cargue la pagina de shopping
+20:28:14.653 INFO  AUTOMATION - Verificando que el texto sea Add to cart
+20:28:14.663 INFO  AUTOMATION - Haciendo click en el boton de Sauce Labs Fleece Jacket
+20:28:14.705 DEBUG AUTOMATION - Refrescando referencia del boton
+20:28:14.713 INFO  AUTOMATION - Verificando que su texto sea Remove
+20:28:14.719 DEBUG AUTOMATION - Before test stop de allure
+20:28:14.721 INFO  AUTOMATION - Test exitoso: relativeLocator2Test
+20:28:14.721 DEBUG AUTOMATION - Matando el driver
+20:28:14.876 DEBUG AUTOMATION - Inializando el driver
+20:28:15.473 DEBUG AUTOMATION - Maximizando pantalla
+20:28:15.508 DEBUG AUTOMATION - Borrando cookies
+20:28:15.512 DEBUG AUTOMATION - Asignando driver al webdriver provider
+20:28:15.513 INFO  AUTOMATION - Comenzando el test: select1Test
+20:28:15.515 INFO  AUTOMATION - Navegando a la pagina
+20:28:16.256 INFO  AUTOMATION - Esperando que cargue la pagina principal
+20:28:16.271 INFO  AUTOMATION - Escribiendo el username
+20:28:16.314 INFO  AUTOMATION - Escribiendo el password
+20:28:16.353 INFO  AUTOMATION - Haciendo click en el boton de login
+20:28:16.422 INFO  AUTOMATION - Esperando que cargue la pagina de shopping
+20:28:16.453 INFO  AUTOMATION - Sleccionamos los items de manera alfabetica Z -> A
+20:28:16.506 INFO  AUTOMATION - Obteniendo el primer elemento
+20:28:16.518 INFO  AUTOMATION - Obteniendo el ultimo elemento
+20:28:16.523 INFO  AUTOMATION - Verificando los nombres
+20:28:16.523 DEBUG AUTOMATION - Before test stop de allure
+20:28:16.524 INFO  AUTOMATION - Test exitoso: select1Test
+20:28:16.525 DEBUG AUTOMATION - Matando el driver
+20:28:16.641 DEBUG AUTOMATION - Inializando el driver
+20:28:17.254 DEBUG AUTOMATION - Maximizando pantalla
+20:28:17.287 DEBUG AUTOMATION - Borrando cookies
+20:28:17.290 DEBUG AUTOMATION - Asignando driver al webdriver provider
+20:28:17.292 INFO  AUTOMATION - Comenzando el test: select2Test
+20:28:17.294 INFO  AUTOMATION - Navegando a la pagina
+20:28:18.096 INFO  AUTOMATION - Esperando que cargue la pagina principal
+20:28:18.112 INFO  AUTOMATION - Escribiendo el username
+20:28:18.153 INFO  AUTOMATION - Escribiendo el password
+20:28:18.194 INFO  AUTOMATION - Haciendo click en el boton de login
+20:28:18.262 INFO  AUTOMATION - Esperando que cargue la pagina de shopping
+20:28:18.291 INFO  AUTOMATION - Seleccionamos los items de menor a mayor precio
+20:28:18.342 INFO  AUTOMATION - Obteniendo el primer precio
+20:28:18.351 INFO  AUTOMATION - Obteniendo el ultimo precio
+20:28:18.356 INFO  AUTOMATION - Verificando los precios
+20:28:18.358 DEBUG AUTOMATION - Before test stop de allure
+20:28:18.359 INFO  AUTOMATION - Test exitoso: select2Test
+20:28:18.359 DEBUG AUTOMATION - Matando el driver
+20:28:18.492 DEBUG AUTOMATION - Inializando el driver
+20:28:19.046 DEBUG AUTOMATION - Maximizando pantalla
+20:28:19.080 DEBUG AUTOMATION - Borrando cookies
+20:28:19.084 DEBUG AUTOMATION - Asignando driver al webdriver provider
+20:28:19.085 INFO  AUTOMATION - Comenzando el test: usuarioInvalidoTest
+20:28:19.086 INFO  AUTOMATION - Navegando a la pagina
+20:28:19.899 INFO  AUTOMATION - Esperando que cargue la pagina principal
+20:28:19.914 INFO  AUTOMATION - Escribiendo el username
+20:28:19.958 INFO  AUTOMATION - Escribiendo el password
+20:28:20.000 INFO  AUTOMATION - Haciendo click en el boton de login
+20:28:20.056 INFO  AUTOMATION - Verificacion el mensaje de error
+20:28:20.077 DEBUG AUTOMATION - Before test stop de allure
+20:28:20.078 INFO  AUTOMATION - Test exitoso: usuarioInvalidoTest
+20:28:20.079 DEBUG AUTOMATION - Matando el driver
+20:28:20.187 DEBUG AUTOMATION - Inializando el driver
+20:28:20.803 DEBUG AUTOMATION - Maximizando pantalla
+20:28:20.835 DEBUG AUTOMATION - Borrando cookies
+20:28:20.839 DEBUG AUTOMATION - Asignando driver al webdriver provider
+20:28:20.840 INFO  AUTOMATION - Comenzando el test: usuarioValido
+20:28:20.841 INFO  AUTOMATION - Navegando a la pagina
+20:28:21.599 INFO  AUTOMATION - Esperando que cargue la pagina principal
+20:28:21.614 INFO  AUTOMATION - Escribiendo el username
+20:28:21.655 INFO  AUTOMATION - Escribiendo el password
+20:28:21.695 INFO  AUTOMATION - Haciendo click en el boton de login
+20:28:21.763 INFO  AUTOMATION - Esperando que cargue la pagina de shopping
+20:28:21.780 INFO  AUTOMATION - Verificando que el inventory list este visible
+20:28:21.785 DEBUG AUTOMATION - Before test stop de allure
+20:28:21.786 INFO  AUTOMATION - Test exitoso: usuarioValido
+20:28:21.786 DEBUG AUTOMATION - Matando el driver
+20:28:21.927 DEBUG AUTOMATION - Inializando el driver
+20:28:22.524 DEBUG AUTOMATION - Maximizando pantalla
+20:28:22.559 DEBUG AUTOMATION - Borrando cookies
+20:28:22.563 DEBUG AUTOMATION - Asignando driver al webdriver provider
+20:28:22.564 INFO  AUTOMATION - Comenzando el test: scroll1Test
+20:28:22.566 INFO  AUTOMATION - Navegando a la pagina
+20:28:22.874 DEBUG AUTOMATION - Generandoun numero aleatorio entre 5 y 9
+20:28:22.875 DEBUG AUTOMATION - n: 7
+20:28:22.883 INFO  AUTOMATION - Haciendo scroll hacia el id: line7
+20:28:24.159 INFO  AUTOMATION - Haciendo click en lineN
+20:28:24.191 INFO  AUTOMATION - Verificando que el texto sea: line7
+20:28:24.206 DEBUG AUTOMATION - Before test stop de allure
+20:28:24.207 INFO  AUTOMATION - Test exitoso: scroll1Test
+20:28:24.208 DEBUG AUTOMATION - Matando el driver
+20:28:24.302 DEBUG AUTOMATION - Inializando el driver
+20:28:24.899 DEBUG AUTOMATION - Maximizando pantalla
+20:28:24.934 DEBUG AUTOMATION - Borrando cookies
+20:28:24.938 DEBUG AUTOMATION - Asignando driver al webdriver provider
+20:28:24.939 INFO  AUTOMATION - Comenzando el test: scroll2Test
+20:28:24.940 INFO  AUTOMATION - Navegando a la pgina
+20:28:25.345 INFO  AUTOMATION - Haciendo scroll hacia el iframe
+20:28:26.633 DEBUG AUTOMATION - Cambiamos el contexto al iframe
+20:28:26.656 INFO  AUTOMATION - Haciendo click en el checkbox
+20:28:26.728 INFO  AUTOMATION - Verificando que el checkbox este seleccionado
+20:28:26.736 DEBUG AUTOMATION - Before test stop de allure
+20:28:26.737 INFO  AUTOMATION - Test exitoso: scroll2Test
+20:28:26.737 DEBUG AUTOMATION - Matando el driver
+20:28:26.838 DEBUG AUTOMATION - Inializando el driver
+20:28:27.393 DEBUG AUTOMATION - Maximizando pantalla
+20:28:27.426 DEBUG AUTOMATION - Borrando cookies
+20:28:27.430 DEBUG AUTOMATION - Asignando driver al webdriver provider
+20:28:27.431 INFO  AUTOMATION - Comenzando el test: subirFileTest
+20:28:27.432 INFO  AUTOMATION - Navegando a la pagina
+20:28:28.159 INFO  AUTOMATION - Subiendo la imagen
+20:28:28.186 INFO  AUTOMATION - Seleccionando la imagen
+20:28:28.229 INFO  AUTOMATION - Haciendo click boton verde
+20:28:28.270 INFO  AUTOMATION - Verificacion que se subio la imagen
+20:28:28.727 DEBUG AUTOMATION - Before test stop de allure
+20:28:28.728 INFO  AUTOMATION - Test exitoso: subirFileTest
+20:28:28.729 DEBUG AUTOMATION - Matando el driver
+20:28:28.836 DEBUG AUTOMATION - Inializando el driver
+20:28:29.484 DEBUG AUTOMATION - Maximizando pantalla
+20:28:29.517 DEBUG AUTOMATION - Borrando cookies
+20:28:29.520 DEBUG AUTOMATION - Asignando driver al webdriver provider
+20:28:29.521 INFO  AUTOMATION - Comenzando el test: ifeameTest
+20:28:29.523 INFO  AUTOMATION - Navegando a la pagina principal
+20:28:31.274 DEBUG AUTOMATION - Nos posicionamos en el frame
+20:28:31.296 INFO  AUTOMATION - Verificando el titulo del iframe
+20:28:31.311 DEBUG AUTOMATION - Regresando a la pagina original
+20:28:31.312 INFO  AUTOMATION - Verificando el titulo de la pagina
+20:28:31.323 DEBUG AUTOMATION - Before test stop de allure
+20:28:31.324 INFO  AUTOMATION - Test exitoso: ifeameTest
+20:28:31.325 DEBUG AUTOMATION - Matando el driver
+20:28:31.426 DEBUG AUTOMATION - Inializando el driver
+20:28:31.990 DEBUG AUTOMATION - Maximizando pantalla
+20:28:32.023 DEBUG AUTOMATION - Borrando cookies
+20:28:32.029 DEBUG AUTOMATION - Asignando driver al webdriver provider
+20:28:32.029 INFO  AUTOMATION - Comenzando el test: pestanaTest
+20:28:32.031 INFO  AUTOMATION - Navegando a la pagina
+20:28:32.682 DEBUG AUTOMATION - Obteniendo el id de la pestaña actual para reconocerlos
+20:28:32.683 DEBUG AUTOMATION - tabId: 50E2E82C6A959B75DE1F9FE0AA965737
+20:28:32.683 INFO  AUTOMATION - Haciendo click en el boton new tab
+20:28:32.746 DEBUG AUTOMATION - Window handles set: [50E2E82C6A959B75DE1F9FE0AA965737, 268AEFE381C9A2040E073DAA7D3C0E4A]
+20:28:32.746 DEBUG AUTOMATION - Nos posicionamos en la nueva pestana
+20:28:32.749 INFO  AUTOMATION - Verificando el texto
+20:28:32.965 INFO  AUTOMATION - Cerrando la pestana actual
+20:28:33.021 DEBUG AUTOMATION - Regresando el focus a la ventana original
+20:28:33.022 INFO  AUTOMATION - Verificando que se regrerso a la ventana original
+20:28:33.035 DEBUG AUTOMATION - Before test stop de allure
+20:28:33.035 INFO  AUTOMATION - Test exitoso: pestanaTest
+20:28:33.036 DEBUG AUTOMATION - Matando el driver
+20:28:33.181 DEBUG AUTOMATION - Inializando el driver
+20:28:33.797 DEBUG AUTOMATION - Maximizando pantalla
+20:28:33.831 DEBUG AUTOMATION - Borrando cookies
+20:28:33.834 DEBUG AUTOMATION - Asignando driver al webdriver provider
+20:28:33.835 INFO  AUTOMATION - Comenzando el test: ventanaTest
+20:28:33.836 INFO  AUTOMATION - Navegando a la pagina
+20:28:34.509 DEBUG AUTOMATION - Obteniendo el id de la ventana actual para reconocerlos
+20:28:34.509 DEBUG AUTOMATION - WindowId: 3E627199960D454EA934244ABDD141FF
+20:28:34.509 INFO  AUTOMATION - Haciendo click en el boton new window
+20:28:34.606 DEBUG AUTOMATION - Window handles set: [3E627199960D454EA934244ABDD141FF, D464935A2715DE6FED6AB9E6A4A25B81]
+20:28:34.606 DEBUG AUTOMATION - Nos posicionamos en la nueva ventana
+20:28:34.608 INFO  AUTOMATION - Verificando que se regrerso a la ventana original
+20:28:34.824 INFO  AUTOMATION - Cerrando la ventana actual
+20:28:34.844 DEBUG AUTOMATION - Regresando el focus a la ventana original
+20:28:34.846 INFO  AUTOMATION - Verificando que se regrerso a la ventana original
+20:28:34.859 DEBUG AUTOMATION - Before test stop de allure
+20:28:34.861 INFO  AUTOMATION - Test exitoso: ventanaTest
+20:28:34.861 DEBUG AUTOMATION - Matando el driver
+20:28:34.994 DEBUG AUTOMATION - Inializando el driver
+20:28:35.597 DEBUG AUTOMATION - Maximizando pantalla
+20:28:35.634 DEBUG AUTOMATION - Borrando cookies
+20:28:35.637 DEBUG AUTOMATION - Asignando driver al webdriver provider
+20:28:35.822 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+20:28:35.977 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+20:28:36.321 DEBUG org.apache.poi.openxml4j.opc.OPCPackage - The close() method is intended to SAVE a package. This package is open in READ ONLY mode, use the revert() method instead!
+20:28:36.322 INFO  AUTOMATION - Comenzando el test: cuartoTest
+20:28:36.325 DEBUG AUTOMATION - Before test stop de allure
+20:28:36.326 INFO  AUTOMATION - Test exitoso: cuartoTest
+20:28:36.327 DEBUG AUTOMATION - Matando el driver
+20:28:36.438 DEBUG AUTOMATION - Inializando el driver
+20:28:37.004 DEBUG AUTOMATION - Maximizando pantalla
+20:28:37.038 DEBUG AUTOMATION - Borrando cookies
+20:28:37.042 DEBUG AUTOMATION - Asignando driver al webdriver provider
+20:28:37.048 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+20:28:37.052 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+20:28:37.074 DEBUG org.apache.poi.openxml4j.opc.OPCPackage - The close() method is intended to SAVE a package. This package is open in READ ONLY mode, use the revert() method instead!
+20:28:37.075 INFO  AUTOMATION - Comenzando el test: primerTest
+20:28:37.078 DEBUG AUTOMATION - Before test stop de allure
+20:28:37.079 INFO  AUTOMATION - Test exitoso: primerTest
+20:28:37.080 DEBUG AUTOMATION - Matando el driver
+20:28:37.204 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+20:28:37.205 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+20:28:37.228 DEBUG org.apache.poi.openxml4j.opc.OPCPackage - The close() method is intended to SAVE a package. This package is open in READ ONLY mode, use the revert() method instead!
+20:28:37.231 DEBUG AUTOMATION - Inializando el driver
+20:28:37.800 DEBUG AUTOMATION - Maximizando pantalla
+20:28:37.832 DEBUG AUTOMATION - Borrando cookies
+20:28:37.836 DEBUG AUTOMATION - Asignando driver al webdriver provider
+20:28:37.841 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+20:28:37.843 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+20:28:37.857 DEBUG org.apache.poi.openxml4j.opc.OPCPackage - The close() method is intended to SAVE a package. This package is open in READ ONLY mode, use the revert() method instead!
+20:28:37.858 INFO  AUTOMATION - Comenzando el test: quintoTest
+20:28:37.860 DEBUG AUTOMATION - Before test stop de allure
+20:28:37.862 INFO  AUTOMATION - Test exitoso: quintoTest
+20:28:37.862 DEBUG AUTOMATION - Matando el driver
+20:28:37.973 DEBUG AUTOMATION - Inializando el driver
+20:28:38.596 DEBUG AUTOMATION - Maximizando pantalla
+20:28:38.633 DEBUG AUTOMATION - Borrando cookies
+20:28:38.637 DEBUG AUTOMATION - Asignando driver al webdriver provider
+20:28:38.641 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+20:28:38.642 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+20:28:38.653 DEBUG org.apache.poi.openxml4j.opc.OPCPackage - The close() method is intended to SAVE a package. This package is open in READ ONLY mode, use the revert() method instead!
+20:28:38.654 INFO  AUTOMATION - Comenzando el test: quintoTest
+20:28:38.655 DEBUG AUTOMATION - Before test stop de allure
+20:28:38.656 INFO  AUTOMATION - Test exitoso: quintoTest
+20:28:38.656 DEBUG AUTOMATION - Matando el driver
+20:28:38.745 DEBUG AUTOMATION - Inializando el driver
+20:28:39.357 DEBUG AUTOMATION - Maximizando pantalla
+20:28:39.390 DEBUG AUTOMATION - Borrando cookies
+20:28:39.394 DEBUG AUTOMATION - Asignando driver al webdriver provider
+20:28:39.399 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+20:28:39.401 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+20:28:39.413 DEBUG org.apache.poi.openxml4j.opc.OPCPackage - The close() method is intended to SAVE a package. This package is open in READ ONLY mode, use the revert() method instead!
+20:28:39.414 INFO  AUTOMATION - Comenzando el test: quintoTest
+20:28:39.415 DEBUG AUTOMATION - Before test stop de allure
+20:28:39.416 INFO  AUTOMATION - Test exitoso: quintoTest
+20:28:39.416 DEBUG AUTOMATION - Matando el driver
+20:28:39.500 DEBUG AUTOMATION - Inializando el driver
+20:28:40.111 DEBUG AUTOMATION - Maximizando pantalla
+20:28:40.145 DEBUG AUTOMATION - Borrando cookies
+20:28:40.149 DEBUG AUTOMATION - Asignando driver al webdriver provider
+20:28:40.154 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+20:28:40.155 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+20:28:40.164 DEBUG org.apache.poi.openxml4j.opc.OPCPackage - The close() method is intended to SAVE a package. This package is open in READ ONLY mode, use the revert() method instead!
+20:28:40.165 INFO  AUTOMATION - Comenzando el test: quintoTest
+20:28:40.166 DEBUG AUTOMATION - Before test stop de allure
+20:28:40.167 INFO  AUTOMATION - Test exitoso: quintoTest
+20:28:40.167 DEBUG AUTOMATION - Matando el driver
+20:28:40.255 DEBUG AUTOMATION - Inializando el driver
+20:28:40.848 DEBUG AUTOMATION - Maximizando pantalla
+20:28:40.883 DEBUG AUTOMATION - Borrando cookies
+20:28:40.888 DEBUG AUTOMATION - Asignando driver al webdriver provider
+20:28:40.892 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+20:28:40.893 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+20:28:40.902 DEBUG org.apache.poi.openxml4j.opc.OPCPackage - The close() method is intended to SAVE a package. This package is open in READ ONLY mode, use the revert() method instead!
+20:28:40.904 INFO  AUTOMATION - Comenzando el test: quintoTest
+20:28:40.905 DEBUG AUTOMATION - Before test stop de allure
+20:28:40.906 INFO  AUTOMATION - Test exitoso: quintoTest
+20:28:40.906 DEBUG AUTOMATION - Matando el driver
+20:28:41.009 DEBUG AUTOMATION - Inializando el driver
+20:28:41.641 DEBUG AUTOMATION - Maximizando pantalla
+20:28:41.674 DEBUG AUTOMATION - Borrando cookies
+20:28:41.678 DEBUG AUTOMATION - Asignando driver al webdriver provider
+20:28:41.682 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+20:28:41.683 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+20:28:41.695 DEBUG org.apache.poi.openxml4j.opc.OPCPackage - The close() method is intended to SAVE a package. This package is open in READ ONLY mode, use the revert() method instead!
+20:28:41.696 INFO  AUTOMATION - Comenzando el test: quintoTest
+20:28:41.698 DEBUG AUTOMATION - Before test stop de allure
+20:28:41.699 INFO  AUTOMATION - Test exitoso: quintoTest
+20:28:41.700 DEBUG AUTOMATION - Matando el driver
+20:28:41.802 DEBUG AUTOMATION - Inializando el driver
+20:28:42.414 DEBUG AUTOMATION - Maximizando pantalla
+20:28:42.451 DEBUG AUTOMATION - Borrando cookies
+20:28:42.455 DEBUG AUTOMATION - Asignando driver al webdriver provider
+20:28:42.459 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+20:28:42.460 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+20:28:42.470 DEBUG org.apache.poi.openxml4j.opc.OPCPackage - The close() method is intended to SAVE a package. This package is open in READ ONLY mode, use the revert() method instead!
+20:28:42.471 INFO  AUTOMATION - Comenzando el test: quintoTest
+20:28:42.473 DEBUG AUTOMATION - Before test stop de allure
+20:28:42.473 INFO  AUTOMATION - Test exitoso: quintoTest
+20:28:42.474 DEBUG AUTOMATION - Matando el driver
+20:28:42.593 DEBUG AUTOMATION - Inializando el driver
+20:28:43.195 DEBUG AUTOMATION - Maximizando pantalla
+20:28:43.229 DEBUG AUTOMATION - Borrando cookies
+20:28:43.233 DEBUG AUTOMATION - Asignando driver al webdriver provider
+20:28:43.238 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+20:28:43.241 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+20:28:43.252 DEBUG org.apache.poi.openxml4j.opc.OPCPackage - The close() method is intended to SAVE a package. This package is open in READ ONLY mode, use the revert() method instead!
+20:28:43.253 INFO  AUTOMATION - Comenzando el test: quintoTest
+20:28:43.255 DEBUG AUTOMATION - Before test stop de allure
+20:28:43.255 INFO  AUTOMATION - Test exitoso: quintoTest
+20:28:43.256 DEBUG AUTOMATION - Matando el driver
+20:28:43.371 DEBUG AUTOMATION - Inializando el driver
+20:28:43.983 DEBUG AUTOMATION - Maximizando pantalla
+20:28:44.005 DEBUG AUTOMATION - Borrando cookies
+20:28:44.009 DEBUG AUTOMATION - Asignando driver al webdriver provider
+20:28:44.013 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+20:28:44.014 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+20:28:44.024 DEBUG org.apache.poi.openxml4j.opc.OPCPackage - The close() method is intended to SAVE a package. This package is open in READ ONLY mode, use the revert() method instead!
+20:28:44.025 INFO  AUTOMATION - Comenzando el test: quintoTest
+20:28:44.026 DEBUG AUTOMATION - Before test stop de allure
+20:28:44.027 INFO  AUTOMATION - Test exitoso: quintoTest
+20:28:44.027 DEBUG AUTOMATION - Matando el driver
+20:28:44.148 DEBUG AUTOMATION - Inializando el driver
+20:28:44.700 DEBUG AUTOMATION - Maximizando pantalla
+20:28:44.735 DEBUG AUTOMATION - Borrando cookies
+20:28:44.740 DEBUG AUTOMATION - Asignando driver al webdriver provider
+20:28:44.744 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+20:28:44.746 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+20:28:44.756 DEBUG org.apache.poi.openxml4j.opc.OPCPackage - The close() method is intended to SAVE a package. This package is open in READ ONLY mode, use the revert() method instead!
+20:28:44.757 INFO  AUTOMATION - Comenzando el test: quintoTest
+20:28:44.758 DEBUG AUTOMATION - Before test stop de allure
+20:28:44.759 INFO  AUTOMATION - Test exitoso: quintoTest
+20:28:44.760 DEBUG AUTOMATION - Matando el driver
+20:28:44.863 DEBUG AUTOMATION - Inializando el driver
+20:28:45.490 DEBUG AUTOMATION - Maximizando pantalla
+20:28:45.525 DEBUG AUTOMATION - Borrando cookies
+20:28:45.529 DEBUG AUTOMATION - Asignando driver al webdriver provider
+20:28:45.532 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+20:28:45.533 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+20:28:45.539 DEBUG org.apache.poi.openxml4j.opc.OPCPackage - The close() method is intended to SAVE a package. This package is open in READ ONLY mode, use the revert() method instead!
+20:28:45.541 INFO  AUTOMATION - Comenzando el test: quintoTest
+20:28:45.542 DEBUG AUTOMATION - Before test stop de allure
+20:28:45.543 INFO  AUTOMATION - Test exitoso: quintoTest
+20:28:45.543 DEBUG AUTOMATION - Matando el driver
+20:28:45.652 DEBUG AUTOMATION - Inializando el driver
+20:28:46.221 DEBUG AUTOMATION - Maximizando pantalla
+20:28:46.256 DEBUG AUTOMATION - Borrando cookies
+20:28:46.260 DEBUG AUTOMATION - Asignando driver al webdriver provider
+20:28:46.264 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+20:28:46.265 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+20:28:46.271 DEBUG org.apache.poi.openxml4j.opc.OPCPackage - The close() method is intended to SAVE a package. This package is open in READ ONLY mode, use the revert() method instead!
+20:28:46.272 INFO  AUTOMATION - Comenzando el test: quintoTest
+20:28:46.274 DEBUG AUTOMATION - Before test stop de allure
+20:28:46.275 INFO  AUTOMATION - Test exitoso: quintoTest
+20:28:46.275 DEBUG AUTOMATION - Matando el driver
+20:28:46.383 DEBUG AUTOMATION - Inializando el driver
+20:28:46.981 DEBUG AUTOMATION - Maximizando pantalla
+20:28:47.017 DEBUG AUTOMATION - Borrando cookies
+20:28:47.021 DEBUG AUTOMATION - Asignando driver al webdriver provider
+20:28:47.024 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+20:28:47.025 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+20:28:47.031 DEBUG org.apache.poi.openxml4j.opc.OPCPackage - The close() method is intended to SAVE a package. This package is open in READ ONLY mode, use the revert() method instead!
+20:28:47.032 INFO  AUTOMATION - Comenzando el test: quintoTest
+20:28:47.034 DEBUG AUTOMATION - Before test stop de allure
+20:28:47.034 INFO  AUTOMATION - Test exitoso: quintoTest
+20:28:47.035 DEBUG AUTOMATION - Matando el driver
+20:28:47.144 DEBUG AUTOMATION - Inializando el driver
+20:28:47.758 DEBUG AUTOMATION - Maximizando pantalla
+20:28:47.808 DEBUG AUTOMATION - Borrando cookies
+20:28:47.812 DEBUG AUTOMATION - Asignando driver al webdriver provider
+20:28:47.815 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+20:28:47.816 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+20:28:47.821 DEBUG org.apache.poi.openxml4j.opc.OPCPackage - The close() method is intended to SAVE a package. This package is open in READ ONLY mode, use the revert() method instead!
+20:28:47.823 INFO  AUTOMATION - Comenzando el test: quintoTest
+20:28:47.824 DEBUG AUTOMATION - Before test stop de allure
+20:28:47.831 INFO  AUTOMATION - Test exitoso: quintoTest
+20:28:47.831 DEBUG AUTOMATION - Matando el driver
+20:28:47.920 DEBUG AUTOMATION - Inializando el driver
+20:28:48.519 DEBUG AUTOMATION - Maximizando pantalla
+20:28:48.550 DEBUG AUTOMATION - Borrando cookies
+20:28:48.554 DEBUG AUTOMATION - Asignando driver al webdriver provider
+20:28:48.559 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+20:28:48.560 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+20:28:48.566 DEBUG org.apache.poi.openxml4j.opc.OPCPackage - The close() method is intended to SAVE a package. This package is open in READ ONLY mode, use the revert() method instead!
+20:28:48.567 INFO  AUTOMATION - Comenzando el test: segundoTest
+20:28:48.568 DEBUG AUTOMATION - Before test stop de allure
+20:28:48.569 INFO  AUTOMATION - Test exitoso: segundoTest
+20:28:48.569 DEBUG AUTOMATION - Matando el driver
+20:28:48.691 DEBUG AUTOMATION - Inializando el driver
+20:28:49.307 DEBUG AUTOMATION - Maximizando pantalla
+20:28:49.342 DEBUG AUTOMATION - Borrando cookies
+20:28:49.347 DEBUG AUTOMATION - Asignando driver al webdriver provider
+20:28:49.350 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+20:28:49.351 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+20:28:49.357 DEBUG org.apache.poi.openxml4j.opc.OPCPackage - The close() method is intended to SAVE a package. This package is open in READ ONLY mode, use the revert() method instead!
+20:28:49.359 INFO  AUTOMATION - Comenzando el test: tercerTest
+20:28:49.360 DEBUG AUTOMATION - Before test stop de allure
+20:28:49.361 INFO  AUTOMATION - Test exitoso: tercerTest
+20:28:49.361 DEBUG AUTOMATION - Matando el driver
+20:28:49.513 INFO  AUTOMATION - Suite finalizada: Surefire suite

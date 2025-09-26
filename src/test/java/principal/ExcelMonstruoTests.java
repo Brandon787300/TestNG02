@@ -4,7 +4,7 @@ import data.CustomData;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import jdk.jfr.Description;
-import modelos.Monstruo;
+import JsonModelos.Monstruo;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
